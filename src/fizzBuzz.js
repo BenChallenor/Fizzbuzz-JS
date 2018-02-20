@@ -15,3 +15,10 @@ FizzBuzz.prototype.play = function(number) {
     return number;
   }
 }
+
+
+var fizzBuzz = new FizzBuzz();
+
+for (var x = 1; x <= 100; x++) {
+  console.log(fizzBuzz.play(x));
+}
